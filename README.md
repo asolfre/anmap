@@ -1,0 +1,6 @@
+# anmap
+Automatically exported from code.google.com/p/anmap
+
+<p><font color="gray"> <h1> Android Network Mapper (network scanner original nmap for android)</h1> </font> </p><p>Prerelease <a href="http://anmap.googlecode.com/files/anmap.apk" rel="nofollow">anmap.apk</a> done.  </p><p>There are some little bugs, as domain names resolving and unroot scanning. </p><p>Nmap data files is also too big for ordinary device memory, 5mb. In the future it would be moved to external memory. Application should be about 2mb. </p><p>The same way you may download compiled nmap with data files in this <a href="http://anmap.googlecode.com/files/nmap-5.51-1.tar" rel="nofollow">tar ball</a> or this <a href="http://anmap.googlecode.com/files/nmap-5.51-1.zip" rel="nofollow">zip archive</a> and keep it in one folder. </p><p>Than connect to localhost via <a href="http://code.google.com/p/connectbot/" rel="nofollow">ConnectBot</a>, untar and start scanning: </p><pre class="prettyprint">$ tar -xvf nmap-5.51-1.tar
+$ su 
+# ./nmap 127.0.0.1</pre><p>You probably necessary root to make all kinds of scan. But some of them you can get like a user. </p><p><a href="http://code.google.com/p/anmap/wiki/Build" rel="nofollow">How-to make apk from original nmap tar.gz(sketch)</a> </p>
